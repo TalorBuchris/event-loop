@@ -6,7 +6,7 @@ function run() {
     setTimeout(() => {
       setMessage(steps[i]);
       addLine(steps[i]);
-    }, 10);
+    }, 10 * (i + 1));
   }
 
   setTimeout(() => {
